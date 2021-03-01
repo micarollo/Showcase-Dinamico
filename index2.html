@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Calima</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logocalima.png" alt="">
+        </div>
+        <div class="nav">
+            <a href="index2.html">Shop</a>
+            <a href="sobremi.html">Sobre mí</a>
+        </div>
+    </header>
+
+    <div class="contenedorpaterns" id="box-paterns">
+        <div class="patern">
+            <img class="patern-image" src="patterns/1.jpg" id="patern-1" draggable="true">
+            <h3 class="patern-title">Naranja lima</h3>
+            <h4 class="patern-price">2.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/2.jpg" id="patern-2" draggable="true">
+            <h3 class="patern-title">Fleur</h3>
+            <h4 class="patern-price">3.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/3.jpg" id="patern-3" draggable="true">
+            <h3 class="patern-title">Café con leche de otoño</h3>
+            <h4 class="patern-price">1.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/4.jpg" id="patern-4" draggable="true">
+            <h3 class="patern-title">Flores y café</h3>
+            <h4 class="patern-price">2.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/5.jpg" id="patern-5" draggable="true">
+            <h3 class="patern-title">Naranjas y limones</h3>
+            <h4 class="patern-price">2.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/6.jpg" id="patern-6" draggable="true">
+            <h3 class="patern-title">Otoñal</h3>
+            <h4 class="patern-price">3.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/7.jpg" id="patern-7" draggable="true">
+            <h3 class="patern-title">Ramitas</h3>
+            <h4 class="patern-price">2.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/8.jpg" id="patern-8" draggable="true">
+            <h3 class="patern-title">Otoño naranja</h3>
+            <h4 class="patern-price">4.99€</h4>  
+        </div>
+        <div class="patern" >
+            <img class="patern-image" src="patterns/9.jpg" id="patern-9" draggable="true">
+            <h3 class="patern-title">Flores rojas</h3>
+            <h4 class="patern-price">2.99€</h4>  
+        </div>
+		
+        <div class="patern">
+            <img class="patern-image" src="patterns/10.jpg" id='patern-10' draggable="true" >
+            <h3 class="patern-title">Flores rosas</h3>
+            <h4 class="patern-price">2.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/11.jpg" id='patern-11' draggable="true" >
+            <h3 class="patern-title">Flower</h3>
+            <h4 class="patern-price">3.99€</h4>  
+        </div>
+        <div class="patern">
+            <img class="patern-image" src="patterns/12.jpg" id='patern-12' draggable="true" >
+            <h3 class="patern-title">Hojitas</h3>
+            <h4 class="patern-price">4.99€</h4>  
+        </div>
+       
+    </div>
+
+    
+    <div class="carro-compras">
+        <div class="carrotitulo">
+            <h2>Cart</h2>
+        </div>
+
+        <div class="drag-drop-zone" id="drop-zone" ondragover="onDragOver(event);" ondrop="onDrop(event);">
+        </div>
+
+        <div class="subtotal">
+            <p>Subtotal</p>
+            <p id="subtotal">0.00€</p>
+        </div>
+
+        <div class="checkout">
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+
+   
+<script src="calima2.js"></script>
+</body>
+</html>
